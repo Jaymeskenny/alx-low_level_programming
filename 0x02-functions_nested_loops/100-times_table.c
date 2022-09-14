@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - check for multiple of 3 and 5
+ *main - check for multiple of 3 and 5
  *
  *Return: 0 always
  */
