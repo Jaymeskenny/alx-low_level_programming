@@ -1,19 +1,38 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- *main - check for multiple of 3 and 5
- *
- *Return: 0 always
+ * print_times_table - Prints the times table of the input, starting with 0.
+ * @n: the value of the times table to be printed.
  */
-int main(void)
+void print_times_table(int n)
 {
-	int x = 1024, y, sum = 0;
-	for (y = 0; y < x; y++)
+	int num, mult, prod;
+
+	if (n >= 0 && n <= n; num++)
 	{
-		if ((y % 3 == 0) || (y % 5 == 0))
+		_putchar('0');
+
+		for (mult = 1; mult <= n; mult++)
 		{
-			sum = sum + y;
+			_putchar(',');
+			_putchar(' ');
+
+			prod = num * mult;
+
+			if (prod <= 99)
+				_putchar(' ');
+			if (prod <= 9)
+				_putchar(' ');
+
+			if (prod >= 100)
+			{
+				_putchar((prod / 100) + '0');
+				_putchar(((prod / 10)) % 10 + '0');
+			}
+			else if (prod <= 99 && prod >= 10)
+			{
+				_putchar((prod / 10) + '0');
+			}
+			_putchar((prod % 10) + '0');
 		}
-	}
-	printf("%d\n", sum);
-	return (0);
-}
+		_putchar('\n');
