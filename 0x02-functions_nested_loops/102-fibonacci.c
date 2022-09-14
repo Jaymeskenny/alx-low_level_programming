@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i < 49; i++)
 	{
-	printf("%d\, ", x);
+	printf("%ld, ", x);
 sum = x + y;
 x = y;
 y = sum;
