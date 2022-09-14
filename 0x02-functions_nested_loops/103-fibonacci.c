@@ -10,6 +10,8 @@ int main(void)
 
 	for (i = 0; i < 48; i++)
 	{
+		if ((y % 2 == 0) && (y <= 4000000))
+		{
 		tsum = tsum + y;
 	}
 sum = x + y;
@@ -18,3 +20,4 @@ y = sum;
 }
 printf("%ld\n", tsum);
 return (0);
+}
