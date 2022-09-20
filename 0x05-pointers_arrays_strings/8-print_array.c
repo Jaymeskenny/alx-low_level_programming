@@ -3,13 +3,13 @@
 
 /**
  * print_array - prints n elements of an array of integers, followed by a new line.
- * @a: the array to be printed.
+ * @a: array to print
  * @n: array's length
  */
 
 void print_array(int *a, int n)
 {
-	in ti;
+	int i;
 
 	for (i = 0; i < n; i++)
 	{
@@ -20,4 +20,4 @@ void print_array(int *a, int n)
 		}
 	}
 	printf("\n");
-}
+	]
