@@ -33,7 +33,7 @@ int main(void)
 
 	for (j = 0; j <= i; j++)
 	{
-		printf("%C", password[j]);
+		printf("%c", password[j]);
 	}
 	return (0);
 }
