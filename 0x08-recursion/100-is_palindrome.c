@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * palind2 - obtains length of a
- * @a: strimg.
+ * @a: string.
  * @l: integer to count length
  * Return: on success 1.
  * On error, -1 is returned, and errno is set appropriately.
@@ -16,7 +16,7 @@ int palind2(char *a, int l)
  * palind3 - compares string vs string reverse
  * @a: string
  * @l: length
- * Return; on success 1.
+ * Return: on success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 int palind3(char *a, int l)
@@ -28,10 +28,9 @@ int palind3(char *a, int l)
 	return (palind3(a + 1, l - 2));
 }
 /**
- * is_palindrome - function that returns 1 if a string
- * is a palindrome and 0 if not.
+ * is_palindrome - checks if a string is a palindrome
  * @s: string to evaluate
- * Retrun: on success 1.
+ * Return: on success 1.
  * On error, -1 is returned, and errno is set appropriately
  */
 int is_palindrome(char *s)
