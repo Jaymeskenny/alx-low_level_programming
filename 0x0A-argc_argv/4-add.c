@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
 /**
  * _isnumber - checks if string is a number
  * @s: string 
@@ -39,7 +40,7 @@ int main(int argc, char **argv)
 	int i, n, ex;
 
 	ex = 0, n = 0;
-	if ( argc > 1)
+	if (argc > 1)
 	{
 		for (i = 1, i < argc; i++)
 		{
