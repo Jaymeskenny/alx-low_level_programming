@@ -20,7 +20,7 @@ int prime2(int a, int b)
  * @n: number integer.
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
- */ 
+ */
 int is_prime_number(int n)
 {
 	if (n <= 1)
