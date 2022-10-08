@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
+
 /**
  * _isnumber - checks if string is a number
  * @s: string
@@ -9,7 +11,7 @@
  */
 int _isnumber(char *s)
 {
-	int i, check, d
+	int i, check, d;
 
 	i = 0, d = 0, check = 1;
 	if (*s == '-')
