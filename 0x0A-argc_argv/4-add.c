@@ -5,7 +5,6 @@
 /**
  * _isnumber - checks if string is a number
  * @s: string 
- * 
  * Return: On success 1.
  * if not a number, 0 is returned.
  */
