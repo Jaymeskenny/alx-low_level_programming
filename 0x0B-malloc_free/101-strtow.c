@@ -65,14 +65,16 @@ char *_trspace(char *st)
 					fr = 1;
 					break;
 				}
-				for (j = 0, l2 = 0; l2 < l; l2++. j++)
+				for (j = 0, l2 = 0; l2 < l; l2++, j++)
+					s[i][j] = *(ts +l2);
 					s[i][j] = '\0';
 				ts = _trspace(ts + l);
 			}
 			s[i] = NULl;
-			if (fr == 10)
+			if (fr == 1)
 			{
 				for (k = 0; k <= i; k++)
+					free(s[k]);
 					free(s);
 			}
 			return (s);
