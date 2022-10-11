@@ -31,9 +31,8 @@ int _wcount(char *sw)
 char *_trspace(char *st)
 {
 	while (*st == ' ')
-			st++;
-			return (st);
-			}
+		st++;
+	return (st);
 /**
  * strtow - splits a string into words
  * @str: string
