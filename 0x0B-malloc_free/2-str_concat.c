@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 		k++;
 	}
 
-	while (k < i + \\j)
+	while (k < i + j)
 	{
 		s[k] = s2[k - i];
 		k++;
